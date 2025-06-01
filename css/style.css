@@ -1,0 +1,189 @@
+body{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:20px;
+	line-weight:2;
+    padding:0px;
+    background-color:greenyellow;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+ul{
+	margin:0;
+	padding:0;	
+}
+
+.dark{
+	padding:15px;
+	background:skyblue;
+	color:lightyellow;
+	width:125pxx;
+}
+
+.headings{
+	background-color:lightyellow;
+	color: skyblue;
+	padding:5px;
+	margin-bottom:5px;
+}
+
+
+header{
+	background:skyblue;
+	color:lightgoldenrodyellow;
+	padding-top:15px;
+	min-height:70px;
+    border-right:20px dotted lightgoldenrodyellow;
+}
+
+header a{
+	color:seagreen;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:15px;
+}
+
+header ul{
+	color:lightyellow;
+}
+
+header li{
+	float:left;
+	display:inline;
+    padding:0px 20px 0 20px;
+    color:lightyellow;
+}
+
+header #branding{
+	float:left;
+}
+
+header h1{
+	margin:0;
+}
+
+header nav{
+	float:right;
+	margin-top:10px;
+}
+
+header .highlight{
+	color:hotpink;
+	font-weight:bold;
+}
+header .current a{
+	color:lightgoldenrodyellow;
+}
+
+header a:hover{
+	color:hotpink;
+	font-weight:bold;
+}
+
+#showcase{
+	min-height:800px;
+	background:url('../img/img3tree.webp') no-repeat 0 -400px ;
+	text-align:center;
+	text-box:solid;
+	color:greenyellow;
+}
+
+#showcase h1{
+	margin-top:850px;
+    font-size:40px;
+}
+
+#Reminders{
+	padding:15px;
+	color:lightyellow;
+	background:skyblue;
+}
+
+footer p{
+	font-weight: bold;
+	font-size:20px;
+}
+
+.button_1{
+	height:25px;
+	background:lightyellow;
+	border:0;
+	padding-left:5px;
+	padding-right:5px;
+	color:skyblue;
+}
+
+#boxes{
+	margin-top:20px;
+}
+
+#boxes .box-1,.box-2,.box-3{
+	float:left;
+	text-align: center;
+	width:30%;
+	padding:10px;
+}
+
+#boxes .box img{
+	width:30%;
+}
+
+
+
+footer{
+	padding:20px;
+	margin-top:20px;
+	color:skyblue;
+	background-color:lightyellow;
+}
+
+aside#sidebar{
+	float:right;
+	width:30%;
+	margin-top:10px;
+}
+
+article #main-col{
+	float:left;
+	width:65%;
+	padding-top:10px;
+}
+
+#main .container{
+	display:flex;
+	gap:40px;
+}
+
+#main-col{
+	flex:3;
+}
+
+#sidebar{
+	flex:1;
+}
+
+@media(max-width:800px){
+	header #branding,header nav,header nav li,#boxes box,#Reminders h1,article#main-col,aside#sidebar{
+float:none;
+text-align:center;
+width:100%;
+	}
+
+header{
+	padding-bottom:20px;
+}
+
+#showcase h1{
+	margin-top:40px;
+}
+
+#Reminders button{
+	display:button;
+	width:100%;
+}
+
+}
